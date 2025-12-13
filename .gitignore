@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Conda / virtual env
+.env
+.env.*
+venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large files (optional safety)
+*.zip
+*.tar
+*.tar.gz
