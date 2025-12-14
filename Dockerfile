@@ -14,7 +14,7 @@ RUN mkdir -p /app/artefacts /app/prediction_files
 
 # 4️⃣ Install dependencies
 RUN pip install --no-cache-dir -r /app/requirements.txt
-RUN pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+RUN pip install torch torchvision
 
 # 5️⃣ Environment variable for API key (passed at runtime)
 ENV GOOGLE_MAPS_API_KEY="AIzaSyAF71xKeFF13D1A8ZHV8foB1upZhRPR7oE"
