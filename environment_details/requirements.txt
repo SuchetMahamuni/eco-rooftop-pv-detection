@@ -1,6 +1,8 @@
+--index-url https://download.pytorch.org/whl/cpu
 torch
-ultralytics
 torchvision
+
+ultralytics
 opencv-python
 numpy
 pandas
