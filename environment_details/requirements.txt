@@ -1,0 +1,6 @@
+pandas
+openpyxl
+opencv-python
+requests
+pillow
+ultralytics

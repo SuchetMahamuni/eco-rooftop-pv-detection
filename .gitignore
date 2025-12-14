@@ -15,6 +15,9 @@ Thumbs.db
 # Logs
 *.log
 
+# Unnecessary python file(s)
+test.py
+
 # Large files (optional safety)
 *.zip
 *.tar

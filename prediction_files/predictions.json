@@ -1,0 +1,58 @@
+[
+  {
+    "sample_id": 1.0,
+    "lat": 18.470436,
+    "lon": 73.862138,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": null,
+    "image_metadata": {
+      "source": "Google Static Maps (Satellite)",
+      "fetch_date": "2025-12-14",
+      "zoom": 20,
+      "image_size": "640x640"
+    }
+  },
+  {
+    "sample_id": 2.0,
+    "lat": 18.4642938392138,
+    "lon": 73.8650757168637,
+    "has_solar": true,
+    "confidence": 0.636,
+    "pv_area_sqm_est": 373.66,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": [
+      262.70941162109375,
+      255.37428283691406,
+      353.50628662109375,
+      301.100830078125
+    ],
+    "image_metadata": {
+      "source": "Google Static Maps (Satellite)",
+      "fetch_date": "2025-12-14",
+      "zoom": 20,
+      "image_size": "640x640"
+    }
+  },
+  {
+    "sample_id": 3.0,
+    "lat": 18.4643145943197,
+    "lon": 73.8678043576914,
+    "has_solar": false,
+    "confidence": 0.0,
+    "pv_area_sqm_est": 0.0,
+    "buffer_radius_sqft": 2400,
+    "qc_status": "VERIFIABLE",
+    "bbox_or_mask": null,
+    "image_metadata": {
+      "source": "Google Static Maps (Satellite)",
+      "fetch_date": "2025-12-14",
+      "zoom": 20,
+      "image_size": "640x640"
+    }
+  }
+]
