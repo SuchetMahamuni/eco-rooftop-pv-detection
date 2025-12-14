@@ -1,6 +1,9 @@
-pandas
-openpyxl
+torch
+ultralytics
+torchvision
 opencv-python
+numpy
+pandas
 requests
 pillow
-ultralytics
+openpyxl
