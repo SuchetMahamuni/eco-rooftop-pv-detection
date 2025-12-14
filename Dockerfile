@@ -4,6 +4,10 @@ FROM python:3.9-slim
 # 2️⃣ Set working directory inside container
 WORKDIR /app
 
+RUN apt-get update && apt-get install -y \
+    libgl1 \
+    && rm -rf /var/lib/apt/lists/*
+
 # 3️⃣ Copy code and assets into container
 COPY pipeline_code /app/pipeline_code
 COPY trained_model /app/trained_model
